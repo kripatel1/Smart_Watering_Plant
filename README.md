@@ -61,32 +61,32 @@ The start time for watering and end time for watering are stored in a gloabal va
 
 **VALID COMMANDS**
 
-1. [time H M] -\&gt; SET TIME [24 HR FORMAT] USING COMMAND
+1. [time H M]  ->  SET TIME [24 HR FORMAT] USING COMMAND
 
-2. [water H1 M1 H2 M2] -\&gt; SET WHEN TO WATER USING COMMAND
+2. [water H1 M1 H2 M2]  ->  SET WHEN TO WATER USING COMMAND
 
-3. [level val] -\&gt; SET MIN MOISTURE LEVEL USING COMMAND
+3. [level val]  ->  SET MIN MOISTURE LEVEL USING COMMAND
 
-4. [SET\_MIN\_BATTERY\_VOLTAGE val] -\&gt; SET MIN BATTERY LEVEL USING COMMAND
+4. [SET\_MIN\_BATTERY\_VOLTAGE val] -> SET MIN BATTERY LEVEL USING COMMAND
 
-5. [alert val] -\&gt; SET light Intensity(TIME OF DAY) FOR ALERTS USING COMMAND
+5. [alert val]  ->  SET light Intensity(TIME OF DAY) FOR ALERTS USING COMMAND
 
-6. [status] -\&gt; shows the current readings vs. Required values
+6. [status]  ->  shows the current readings vs. Required values
 
-7. [light] -\&gt; gets current light level
+7. [light]  ->  gets current light level
 
-8. [battery] -\&gt; gets current voltage of battery
+8. [battery]  ->  gets current voltage of battery
 
-9. [moisture] -\&gt; gets current moisture level
+9. [moisture]  ->  gets current moisture level
 
-10. [pump ON] -\&gt; Turns water pump ON
+10. [pump ON]  ->  Turns water pump ON
 
-11. [pump OFF] -\&gt; Turns water pump OFF
+11. [pump OFF]  ->  Turns water pump OFF
 
-12. [getCurrentTime] -\&gt; get Current Time
+12. [getCurrentTime]  ->  get Current Time
 
-13. [history] -\&gt; show the past entries
+13. [history]  ->  show the past entries
 
-14. [record] -\&gt; manually log an entry
+14. [record] ->  manually log an entry
 
-15. [erase] -\&gt; erase all entries
+15. [erase]  ->  erase all entries
