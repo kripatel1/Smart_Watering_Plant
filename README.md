@@ -1,10 +1,8 @@
 # Smart Watering Plant
-KRISHNA PATEL
+Main idea of this project was to use simple circuits to detect moisture level, light exposure, time of day to make sure water pump ran during daytime and not when people are sleeping. Keep tracking of water level in of resevoir was also needed. All this was fully implemented. Although not ideal, the smart water embedded systesm would send commmands back and forth via virtual com port over UART0 peripheral of the TM4C123 Bord. The following description explains the commands and how EEPROM storage was used.
 
-Theory of Operation
 
-EEPROM (Data Storage)
-
+Theory of Operation of EEPROM (Data Storage)
 ![](RackMultipart20201214-4-1yabmis_html_6c07156bd966aef3.gif) ![](RackMultipart20201214-4-1yabmis_html_6c07156bd966aef3.gif) ![](RackMultipart20201214-4-1yabmis_html_dae7ba5e05eed766.gif) ![](RackMultipart20201214-4-1yabmis_html_f41d2699a0b8105.gif) ![](RackMultipart20201214-4-1yabmis_html_54416d88fd53949e.gif)
 
 **Bits 13- 0 TIMESTAMP**
